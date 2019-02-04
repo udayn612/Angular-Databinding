@@ -1,0 +1,56 @@
+<!--First angular demo program-->
+<h1 align="center"><u>ANGULAR</u></h1>
+<app-click-me></app-click-me>
+
+<!--Scenario 1 selector-->
+  <h1><u>Scenario1:</u></h1>
+  <app-scenario1></app-scenario1>
+
+<!-- Scenario 2 selector-->
+<h1><u>Scenario2:</u></h1>
+<app-scenario2></app-scenario2>
+
+<!--Scenario 3 selector-->
+<h1><u>Scenario3:</u></h1>
+<p>
+  In this scenario, create two components, say component1 and component2. Component1 is a
+parent of component2.
+A user should be able to enter text in the .html template file of component1. The template of
+component2 should display the text.
+</p>
+<!-- <app-scenario3></app-scenario3> -->
+<app-parent></app-parent>
+
+<!--Scenario 4 selector-->
+<h1><u>Scenario 4:</u></h1>
+<p>
+  n this scenario, create two components, say component1 and component2. Component1 is a
+parent of component2.
+A user should be able to enter text in the .html template file of component2. The template of
+component1 should display the text.
+</p>
+<app-parentmsg></app-parentmsg>
+<!-- <app-scenario4> </app-scenario4> -->
+
+<!-- Scenario 5 selector -->
+<h1><u>Scenario 5:</u></h1>
+<p>
+  In this scenario, create three components, say component1, component2, and component3.
+Component1 is a parent of component2, and component2 is a parent of component3.A user should be able to enter text in the .html template file of component3. The template of
+component1 (grandparent) should display the text.
+</p>
+<app-grandparent></app-grandparent>
+
+
+<!--Scenario 6: selector-->
+<h1><u>Scenario 6:</u></h1>
+<p>
+  In this scenario, create three components, say component1, component2, and component3.
+Component1 is a parent of both component2 and component3.
+A user should be able to enter text in the .html template file of component2. The template of
+component3 (sibling) should display the text.
+</p>
+<app-parentchild2msg> </app-parentchild2msg> 
+
+<!-- Parent child data bind using Emitter and output-->
+<app-parentchild></app-parentchild> 
